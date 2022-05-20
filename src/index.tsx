@@ -17,12 +17,13 @@ export const IdleProvider = ({
   timeForInactivity = 30000,
   children,
 }: PropsWithChildren<{ timeForInactivity?: number }>) => {
-  const timerId = useRef<NodeJS.Timeout>();
+  const timerId = useRef<NodeJS.Timeout | number>();
   const [isIdle, setIsIdle] = useState(false);
 
   const resetInactivityTimeout = useCallback(() => {
     if (timerId.current) {
-      clearTimeout(timerId.current);
+      // "as any" avoids react native incompatibilities with 0.64.0
+      clearTimeout(timerId.current as any);
     }
     setIsIdle(false);
     timerId.current = setTimeout(() => {
