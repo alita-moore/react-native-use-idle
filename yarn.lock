@@ -3468,11 +3468,6 @@ react-native-gradle-plugin@^0.0.6:
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.6.tgz#b61a9234ad2f61430937911003cddd7e15c72b45"
   integrity sha512-eIlgtsmDp1jLC24dRn43hB3kEcZVqx6DUQbR0N1ABXGnMEafm9I3V3dUUeD1vh+Dy5WqijSoEwLNUPLgu5zDMg==
 
-react-native-use-idle@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/react-native-use-idle/-/react-native-use-idle-1.1.0.tgz#c69ac7d5bf8247a1373eea8d091bf6cd91a0ad8e"
-  integrity sha512-16mTvLeqvRaRqx7zMtVK69i5BReRRYmEh+SLQScVz0LCweaZIO5hNUbr9t/kUS0NKnQZ2GHFvoO8SW73cZ1Dcg==
-
 react-native@^0.68.2:
   version "0.68.2"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.68.2.tgz#07547cd31bb9335a7fa4135cfbdc24e067142585"

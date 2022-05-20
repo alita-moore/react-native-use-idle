@@ -1,3 +1,5 @@
+import {PropsWithChildren} from "react";
+
 declare module 'react-native-use-idle' {
 
     /**
@@ -32,6 +34,6 @@ declare module 'react-native-use-idle' {
      * so that means there are many events. Therefore, the root code clears and re-instantiates a set timeout
      * every time an action is performed. This is unlikely to cause issues with your app.
      * */
-    export function IdleProvider(props: { timeForInactivity?: number }): JSX.Element;
+    export function IdleProvider(props: PropsWithChildren<{ timeForInactivity?: number }>): JSX.Element;
 }
 

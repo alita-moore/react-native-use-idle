@@ -56,7 +56,7 @@ export const IdleProvider = ({
   );
 };
 
-/
+
 export const useIdle = () => {
   return useContext(IsIdleContext);
 };
