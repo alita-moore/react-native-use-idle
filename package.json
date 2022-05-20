@@ -1,8 +1,8 @@
 {
   "name": "react-native-use-idle",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "description": "useIdle returns a boolean if idle",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/alita-moore/react-native-use-idle",
   "author": "alita-moore",
   "license": "MIT",
