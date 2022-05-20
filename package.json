@@ -1,15 +1,13 @@
 {
   "name": "react-native-use-idle",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "description": "useIdle returns a boolean if idle",
   "main": "index.js",
   "repository": "https://github.com/alita-moore/react-native-use-idle",
   "author": "alita-moore",
   "license": "MIT",
   "private": false,
-  "dependencies": {
-    "react-native": "^0.68.2"
-  },
+  "dependencies": {},
   "scripts": {
     "install": "tsc --build"
   },
@@ -19,6 +17,7 @@
     "@types/react-native": "^0.67.7",
     "prettier": "^2.6.2",
     "react": "^18.1.0",
+    "react-native": "^0.68.2",
     "typescript": "^4.6.4"
   }
 }
