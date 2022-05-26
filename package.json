@@ -9,7 +9,7 @@
   "private": false,
   "dependencies": {},
   "scripts": {
-    "install": "tsc --build"
+    "install": "npx tsc --build"
   },
   "nativePackage": true,
   "devDependencies": {
